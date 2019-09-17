@@ -1,4 +1,4 @@
-package io.github.stefancostin.designpatterns.factory.method.products;
+package io.github.stefancostin.designpatterns.factory.products;
 
 public class AndroidButton implements UIControl {
 	final String SYMBOL;

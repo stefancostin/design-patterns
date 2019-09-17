@@ -1,9 +1,9 @@
-package io.github.stefancostin.designpatterns.factory.method.products;
+package io.github.stefancostin.designpatterns.factory.products;
 
-public class IOSButton implements UIControl {
+public class WindowsButton implements UIControl {
 	final String SYMBOL;
 	
-	public IOSButton(String osSpecificSymbol) {
+	public WindowsButton(String osSpecificSymbol) {
 		SYMBOL = osSpecificSymbol;
 	}
 	
@@ -14,7 +14,7 @@ public class IOSButton implements UIControl {
 	}
 	
 	public void onClick() {
-		System.out.println("Clicked on iOS Button from an Apple device.");
+		System.out.println("Clicked on Windows Button.");
 	}
 	
 	private void addBorder(int length) {

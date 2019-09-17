@@ -1,10 +1,10 @@
-package io.github.stefancostin.designpatterns.factory.method.products;
+package io.github.stefancostin.designpatterns.factory.products;
 
-public class IOSCheckbox implements UIControl {
+public class AndroidCheckbox implements UIControl {
 	final String SYMBOL;
 	boolean state;
 	
-	public IOSCheckbox(String osSpecificSymbol) {
+	public AndroidCheckbox(String osSpecificSymbol) {
 		SYMBOL = osSpecificSymbol;
 	}
 	
@@ -16,7 +16,8 @@ public class IOSCheckbox implements UIControl {
 	
 	public void onClick() {
 		state = !state;
-		System.out.println("Clicked on iOS Checkbox from an Apple device.");
+		System.out.println("Clicked on Android Checkbox.");
 		System.out.println("State: " + state);
 	}
+	
 }

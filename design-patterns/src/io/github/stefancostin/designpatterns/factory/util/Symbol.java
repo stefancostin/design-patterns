@@ -1,4 +1,4 @@
-package io.github.stefancostin.designpatterns.factory.method.util;
+package io.github.stefancostin.designpatterns.factory.util;
 
 import java.util.Map;
 
