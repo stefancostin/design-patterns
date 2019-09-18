@@ -8,6 +8,7 @@ import io.github.stefancostin.designpatterns.bridge.remotes.BasicRemote;
 public class BridgeMain {
 
 	public static void main(String[] args) {
+		// could use factory method for object creation
 		Device device = new Radio();
 		
         System.out.println("Tests with basic remote.");
